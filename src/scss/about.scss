@@ -1,0 +1,115 @@
+@import '../scss/base/mixin';
+
+#about {
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px 0px 20px 0;
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--main-color);
+
+    svg {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        z-index: 1;
+        transform: translateY(-80%);
+
+        path {
+            fill: var(--main-color);
+        }
+    }
+
+    .container-cv-text {
+        position: relative;
+        z-index: 9;
+        margin: auto;
+        width: 80%;
+        box-sizing: border-box;
+        padding: 10px;
+
+        .box-img-text-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 80%;
+                border-radius: 50%;
+            }
+
+            .container-text-icons {
+                max-width: 350px;
+                margin: auto;
+                padding: 10px 0;
+
+                h5 {
+                    text-align: justify;
+                    margin: 0;
+                    font-size: 17px;
+                    padding: 15px 0;
+                    color: var(--text-color);
+                    font-weight: 500;
+                }
+
+                h4 {
+                    color: var(--text-color);
+
+                    i {
+                        padding-right: 3px;
+                        color: var(--primary-color);
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    padding: 15px 0;
+                    border-radius: 15px;
+                    color: white;
+                    font-size: 18px;
+                    font-weight: 600;
+                    box-sizing: border-box;
+                    background-color: var(--primary-color);
+                    transition: all 0.5s;
+                    border: 2px solid var(--primary-color);
+                }
+
+                button:hover {
+                    background-color: transparent;
+                    color: var(--primary-color);
+                }
+            }
+        }
+    }
+
+    @include media-up(md) {
+        .container-cv-text {
+            width: 90%;
+            max-width: 850px;
+            background-color: var(--body-color);
+            border-radius: 10px;
+            margin-top: 40px;
+            box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.7);
+
+            .box-img-text-btn {
+                box-sizing: border-box;
+                width: 90%;
+                margin: auto;
+                margin-bottom: 30px;
+                padding: 10px;
+
+                img {
+                    margin-top: 20px;
+                    width: 70%;
+                    max-width: 450px;
+                }
+
+                .container-text-icons {
+                    width: 90%;
+                    margin: 0;
+                    max-width: 550px;
+                }
+            }
+        }
+    }
+}

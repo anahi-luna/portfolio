@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "title": "Java",
+      "img": "assets/images/java-original.svg"
+    },
+    {
+      "id": 2,
+      "title": "MySQL",
+      "img": "assets/images/mysql-original-wordmark.svg"
+    },
+    {
+      "id": 3,
+      "title": "Sequelize",
+      "img": "assets/images/sequelize-original.svg"
+    },
+    {
+      "id": 4,
+      "title": "NodeJS",
+      "img": "assets/images/nodejs-original.svg"
+    },
+    {
+      "id": 5,
+      "title": "Express",
+      "img": "assets/images/express-original-wordmark.svg"
+    },
+    {
+      "id": 6,
+      "title": "Sequelize",
+      "img": "assets/images/sequelize-original.svg"
+    }
+  ]

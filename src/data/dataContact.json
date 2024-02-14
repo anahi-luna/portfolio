@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "link": "mailto:rebeca.anahi.luna@gmail.com",
+        "icon": "fas fa-envelope",
+        "name": "Email",
+        "info": "rebeca.anahi.luna@gmail.com"
+    },
+    {
+        "id":2,
+        "link": "https://github.com/anahi-luna",
+        "icon": "fab fa-github",
+        "name": "GitHub",
+        "info": "/anahi-luna"
+    },
+    {
+        "id":3,
+        "link": "#",
+        "icon": "fa-brands fa-whatsapp",
+        "name": "WhatsApp",
+        "info": "+549 11 3689-7903"
+    },
+    {
+        "id":4,
+        "link": "https://www.linkedin.com/in/anahiluna/",
+        "icon": "fab fa-linkedin",
+        "name": "LinkendIn",
+        "info": "/in/anahiluna"
+    }
+]

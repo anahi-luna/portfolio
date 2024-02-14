@@ -1,0 +1,129 @@
+@import '../scss/base/mixin';
+
+#skill {
+    width: 100%;
+    padding: 30px 0;
+    background-color: var(--main-color);
+    
+
+    .container-slider-tools {
+        box-sizing: border-box;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px 0;
+
+        .content-carousel-items-title {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+            .title-skills-items {
+                align-self: flex-start;
+                padding-left: 20px;
+                font-size: 22px;
+                color: var(--text-color);
+                margin: 10px 0;
+
+                i {
+                    color: var(--primary-color);
+                    padding-right: 5px;
+                }
+            }
+
+            .content-carousel {
+                width: 100%;
+                margin: 5px 0 20px 0;
+
+                .slide {
+                    text-align: center;
+                    box-sizing: border-box;
+                    outline: none;
+                    padding: 20px;
+
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+
+                    h3 {
+                        font-size: 10px;
+                        color: var(--text-color);
+                    }
+                }
+
+                .slick-slide {
+                    filter: grayscale(100%);
+                    opacity: .5;
+                    outline: none;
+                }
+
+                .slick-slide>div {
+                    margin: 0 10px;
+                }
+
+                .slick-next::before,
+                .slick-prev::before {
+                    display: none;
+                }
+
+                .slick-center {
+                    transform: scale(1.15);
+                    filter: none;
+                    opacity: 1;
+                    transition: 1s all;
+                }
+            }
+
+            .content-tools {
+                writing-mode: vertical-lr;
+                text-orientation: upright;
+                width: 90%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                margin: 20px 0 30px 0;
+
+                p {
+                    font-size: 25px;
+                    color: var(--text-color);
+                    font-weight: 500;
+                    margin: 0;
+                    
+                    i,img {
+                        width: 30px;
+                        font-size: 30px;
+                        padding-bottom: 7px;
+                        color: black;
+                    }
+
+                }
+            }
+        }
+    }
+
+    @include media-up(md) {
+        .container-slider-tools {
+            background-color: var(--body-color);
+            border-radius: 20px;
+            max-width: 850px;
+            padding: 10px 0;
+            box-shadow: 0px 0px 15px -5px rgba(0, 0, 0, 0.7);
+
+            .content-carousel-items-title {
+                width: 80%;
+                .content-carousel{
+                    .slide{
+                        h3{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

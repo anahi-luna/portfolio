@@ -1,0 +1,59 @@
+$breakpoints:(
+    xs:450px,
+    sm:540px,
+    md:769px,
+    lg:1024px,
+    xl:1200px
+);
+
+@mixin media-up($breakpoint){
+    @if map-has-key($breakpoints , $breakpoint ){
+        @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+            @content;
+        }
+    }@else{
+        @warn "El valor '#{$breakpoint}' no ha sido declarado como brealpoint"
+    }
+};
+
+$animation-values: (
+    1: (#bf3f72, 50px, 30px, -100px, 1s, 2.5s,-5%,initial),
+    2: (#bf3f72, 50px, 30px, 150px, 1s, 3.5s,-5%,initial),
+    3: (#fa2b7e, 120px, 30px, -400px, 0.5s, 3s,-5%,initial),
+    4: (#ffb2d1, 30px, 15px, 200px, 0.6s, 1.5s,-5%,initial),
+    5: (#ffb2d1, 30px, 15px, 450px, 0.8s, 2.5s,-5%,initial),
+    6: (#9c003f, 80px, 30px, 500px, 1s, 5s,-5%,initial),
+    7: (#ffb2d1, 30px, 15px, -400px, 0.8s, 2.2s,-5%,initial),
+    8: (#9c003f, 80px, 30px, 35px, 1s, 4s,-5%,initial),
+    9: (#fa2b7e, 120px, 30px, 300px, 0.5s, 2.5s,-5%,initial),
+    10: (#9c003f, 80px, 40px, -450px, 1s, 3s,-5%,initial),
+    11: (#9c003f, 80px, 30px, 200px, 1s, 2s,-5%,initial),
+    12: (#fa2b7e, 120px, 30px, -250px, 0.5s, 4s,-5%,initial),
+    13: (#ffb2d1, 30px, 15px, -150px, 0.6s, 1.5s,-5%,initial)
+);
+
+
+@mixin animate-span($index) {
+    $values: map-get($animation-values, $index);
+    background-color: nth($values, 1);
+    top:nth($values, 7);
+    width: nth($values, 2);
+    height: nth($values, 3);
+    right: nth($values, 4);
+    left: nth( $values,8);
+    animation-delay: nth($values, 5);
+    animation-duration: nth($values, 6);
+}
+
+$animation-wave:(
+    1:(animate,20s, linear infinite,1,0s),
+    2:(animate2,15s,linear infinite,0.5,-5s),
+    3:(animate,10s,linear infinite,0.2,-2s),
+    4:(animate2,5s,linear infinite,0.7,-5s)
+);
+@mixin animate-wave($index){
+    $values:map-get($animation-wave, $index );
+    animation: nth($values,1) nth($values,2) nth($values,3);
+    opacity: nth($values,4);
+    animation-delay: nth($values,5);
+}

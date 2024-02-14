@@ -1,0 +1,157 @@
+@import '../scss/base/mixin';
+
+#contact {
+    width: 100%;
+
+    .container-links-msgs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 1200px;
+        margin: auto;
+        padding-bottom: 20px;
+        .container-send-link {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            .box-icons-mgs {
+                height: 180px;
+                width: 90%;
+                max-width: 270px;
+                margin: 20px 0;
+                border-radius: 10px;
+                transition: all 0.5s;
+                background-color: var(--primary-color);
+                box-sizing: border-box;
+                border: var(--primary-color) 2px solid;
+                a {
+                    box-sizing: border-box;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    i{
+                        font-size: 30px;
+                        margin: 15px 0 0 0;
+                    }
+                    h4{
+                        box-sizing: border-box;
+                        margin: 5px 0 15px 0;
+                        font-size: 16px;
+                    }
+                    h5 {
+                        box-sizing: border-box;
+                        font-weight: 600;
+                        font-size: 14px;
+                        margin: 10px 0;
+                    }
+                }
+            }
+            .box-icons-mgs:hover{
+                background-color: transparent;
+                a{
+                    color: var(--primary-color);
+                }
+            }
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            max-width: 450px;
+            margin-bottom: 90px;
+            input,textarea{
+                box-sizing: border-box;
+                width: 100%;
+                margin: 10px 0;
+                height: 150px;
+                padding: 10px;
+                outline: none;
+                background-color: transparent;
+                border-radius: 10px;
+                border: var(--primary-color) solid 1px;
+            }::placeholder{
+                color: var(--primary-color);
+                font-weight: 600;
+            }
+            input,textarea:focus{
+                color: var(--text-color);
+            }
+            
+            input{
+                height: 50px;
+            }
+
+            button{
+                margin-top: 20px;
+                font-weight: 600;
+                font-size: 14px;
+                background-color: var(--primary-color);
+                color: white;
+                padding: 10px;
+                align-self: flex-start;
+                border-radius: 10px;
+                width: 30%;
+                min-width: 150px;
+                transition: all 0.5s;
+                border: var(--primary-color) 2px solid;
+            }
+            button:hover{
+                background-color: transparent;
+                color: var(--primary-color);
+            }
+        }
+        @include media-up(md){
+            .container-send-link{
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                max-width: 600px;
+                margin-bottom: 20px;
+                .box-icons-mgs{
+                    width: 45%;
+                }
+            }
+            form{
+                max-width: 600px;
+            }
+        }
+    }
+    @include media-up(xl){
+        height: 100vh;
+        position: relative;
+        .fist-title{
+            position: absolute;
+            top: 5%;
+            right: 50%;
+            transform: translateX(50%);
+        }
+        .container-links-msgs{
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%,-50%);
+            justify-content: space-around;
+            flex-direction: row;
+            .container-send-link{
+                max-width: 550px;
+            }
+            form{
+                align-self: flex-start;
+                margin-top: 10px;
+                max-width: 450px;
+                margin-bottom: 0px;
+                textarea{
+                    height: 190px;
+                }
+            }
+        }
+    }
+}

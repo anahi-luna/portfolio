@@ -1,0 +1,27 @@
+[
+    {
+        "id":1,
+        "link":"#home",
+        "name":"Home"
+    },
+    {
+        "id":2,
+        "link":"#about",
+        "name":"About"
+    },
+    {
+        "id":3,
+        "link":"#skill",
+        "name":"Skill"
+    },
+    {
+        "id":4,
+        "link":"#proyect",
+        "name":"Proyect"
+    },
+    {
+        "id":5,
+        "link":"#contact",
+        "name":"Contact"
+    }
+]

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Brygada+1918:ital,wght@1,400;1,500;1,600;1,700&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap');
+@import './scss/base/settings';
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    #light{
+        @include apply-theme(light);
+        width: 100%;
+        background-color: var(--body-color);
+        margin: 0;
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .fist-title{
+            color: var(--primary-color);
+            font-size: 30px;
+            text-align: center;
+            margin: 5px 0;
+            padding: 3px 0;
+        }
+        .btn-change-themes{
+            position: fixed;
+            z-index: 999;
+            bottom: 15%;
+            right: 5%;
+            outline: none;
+            background: transparent;
+            border: none;
+            i{
+                font-size: 30px;
+                color: var(--primary-color-light);
+                transition: all 0.5s;
+            }:hover{
+                color:var(--second-color);
+            }
+        }
+        .arrow-top{
+            bottom: 20%;
+        }
+    }
+    #dark{
+        width: 100%;
+        @include apply-theme(dark);
+        background-color: var(--body-color);
+        margin: 0;
+        li{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+        }
+        .fist-title{
+            color: var(--primary-color);
+            font-size: 30px;
+            margin: 5px 0;
+            text-align: center;
+        }
+        .btn-change-themes{
+            position: fixed;
+            z-index: 999;
+            bottom: 15%;
+            right: 5%;
+            outline: none;
+            background: transparent;
+            border: none;
+            
+            i{
+                font-size: 30px;
+                color: var(--primary-color-light);
+                transition: all 0.5s;
+            }:hover{
+                color: var(--second-color);
+            }
+        }
+        .arrow-top{
+            bottom: 20%;
+        }
+    }
+}
+

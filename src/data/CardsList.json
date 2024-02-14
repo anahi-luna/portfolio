@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "img": "assets/images/fast-food.JPG",
+        "title": "Fast Food",
+        "text": "HTML - CSS - Javascript - Local Storage - E-commerce - CRUD - Scrum",
+        "linkCode": "https://github.com/anahi-luna/ba-proyecto",
+        "linkPage": "https://anahi-luna.github.io/ba-proyecto/"
+    },
+    {
+        "id": 2,
+        "img": "assets/images/pagina-compras.JPG",
+        "title": "Arpeggio Music",
+        "text": "HTML - CSS - Javascript - MySQL - Sequelize - NodeJS - Express - Apis - MVC - CRUD - Scrum",
+        "linkCode": "https://github.com/gpcuneo/grupo_01_arpeggio_music/tree/sprint8b",
+        "linkPage": "https://github.com/gpcuneo/grupo_01_arpeggio_music/tree/sprint8b"
+    },
+    {
+        "id": 3,
+        "img": "assets/images/khabyToken.JPG",
+        "title": "Khaby Token",
+        "text": "HTML - CSS - Javascript - DashBoard - Apis - Scrum",
+        "linkCode": "https://github.com/anahi-luna/khaby-token",
+        "linkPage": "https://anahi-luna.github.io/khaby-token/"
+    },
+    {
+        "id": 4,
+        "img": "assets/images/react-dashboard.JPG",
+        "title": "Arpeggio DashBoard",
+        "text": "HTML - CSS - Javascript - React - Apis - E-commerce - Bootstrap - CRUD - Scrum",
+        "linkCode": "https://github.com/gpcuneo/grupo_01_arpeggio_music/tree/sprint8b/front",
+        "linkPage": "https://github.com/gpcuneo/grupo_01_arpeggio_music/tree/sprint8b/front"
+    },
+    {
+        "id": 5,
+        "img": "assets/images/mercado-Liebre.JPG",
+        "title": "Mercado Liebre",
+        "text": "HTML - CSS - Javascript - E-commerce - MVC - CRUD",
+        "linkCode": "https://github.com/anahi-luna/proyecto-individual",
+        "linkPage": "https://anahi-luna.github.io/proyecto-individual/"
+    }
+]

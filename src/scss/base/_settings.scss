@@ -1,0 +1,36 @@
+$themes: (
+    light:(
+        body-color: #fff,
+        main-color: #f4f2f2,
+        primary-color: #fa2b7e, 
+        primary-color-light: #3A3B3C,
+        second-color: #9c003f,
+        text-color: #3A3B3C, 
+        c-bg-1:#bf3f72,
+        c-bg-2:#ffb2d1,
+        c-bg-card:#fff,
+    ),
+    dark:(
+        body-color: #18191A, 
+        main-color: #242526, 
+        primary-color: #fa2b7e, 
+        primary-color-light: #fff, 
+        second-color: #9c003f, 
+        text-color: #ebebeb, 
+        c-bg-1:#bf3f72,
+        c-bg-2:#ffb2d1,
+        c-bg-card:#242526,
+    )
+);
+
+@mixin apply-theme($theme) {
+    @each $key, $value in map-get($themes, $theme) {
+        --#{$key}: #{$value};
+    }
+};
+$transtisions:(
+    trans-02: all 0.2s ease,
+    trans-03: all 0.3s ease,
+    trans-04: all 0.4s ease,
+    trans-05: all 0.5s ease,
+)
