@@ -1,6 +1,6 @@
 import Perfil from "../../assets/images/FotoDePerfil-2.png";
 import '../../scss/about.scss';
-import CV from '../../assets/static/cv-anahi.pdf';
+import CV from '../../assets/static/cv-anahi-luna.pdf';
 
 export const About = () => {
   return (
