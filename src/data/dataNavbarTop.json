@@ -7,21 +7,21 @@
     {
         "id":2,
         "link":"#about",
-        "name":"About"
+        "name":"Sobre Mi"
     },
     {
         "id":3,
         "link":"#skill",
-        "name":"Skill"
+        "name":"Habilidades"
     },
     {
         "id":4,
         "link":"#proyect",
-        "name":"Proyect"
+        "name":"Proyectos"
     },
     {
         "id":5,
         "link":"#contact",
-        "name":"Contact"
+        "name":"Contacto"
     }
 ]

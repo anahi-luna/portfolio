@@ -24,7 +24,7 @@ export const Contact = () => {
   };
   return (
     <section id='contact'>
-      <h2 className='fist-title' >Contact</h2>
+      <h2 className='fist-title' >Contacto</h2>
       <div className='container-links-msgs'>
         <div className='container-send-link'>
           {
@@ -43,10 +43,10 @@ export const Contact = () => {
           }
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='Your Email' required />
-          <textarea name="message" placeholder='Your Message' rows="7" required></textarea>
-          <button type='submit'>Send Message</button>
+          <input type="text" name='name' placeholder='Tu Nombre Completo' required />
+          <input type="email" name='email' placeholder='Tu Email' required />
+          <textarea name="message" placeholder='Tu Mensaje' rows="7" required></textarea>
+          <button type='submit'>Enviar Mensaje</button>
         </form>
       </div>
     </section>

@@ -48,7 +48,7 @@ export const Skill = () => {
   return (
     <section id='skill'>
       <div className='container-slider-tools'>
-        <h2 className='fist-title' >Skill</h2>
+        <h2 className='fist-title' >Habilidades</h2>
         <div className="content-carousel-items-title">
           <h3 className='title-skills-items'><i className="fas fa-file-code"></i>Frontend</h3>
           <div className='content-carousel'>

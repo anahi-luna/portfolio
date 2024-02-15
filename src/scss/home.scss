@@ -111,7 +111,7 @@
                 position: relative;
                 margin: 0 2px;
                 &::before{
-                    content: 'Developer Full Stack';
+                    content: 'Desarrollador Full Stack';
                     color: var(--primary-color);
                     animation: words 20s infinite;
                 }
@@ -133,16 +133,16 @@
                 
                 @keyframes words {
                     0%,25%{
-                        content: "Developer Front End";
+                        content: "Desarrollador Front End";
                     }
                     26%,45%{
-                        content: "Developer Full Stack";
+                        content: "Desarrollador Full Stack";
                     }
                     46%,65%{
-                        content: "Disegn";
+                        content: "Diseñadora";
                     }
                     66%,80%{
-                        content: "Developer Back End";
+                        content: "Desarrollador Back End";
                     }
                     
                 }
