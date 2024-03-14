@@ -11,12 +11,7 @@ export const About = () => {
         <div className="box-img-text-btn">
           <img src={Perfil} alt="perfil" />
           <div className="container-text-icons">
-            <h5>Desde que comencé a explorar el mundo de la programación, me fascinó el
-              desarrollo web, y conforme estudiaba, mi interés creció aún más. Empecé a crear proyectos para
-              poner en práctica lo aprendido y descubrí que me apasiona programar y enfrentar nuevos desafíos.
-              Me siento cómodo trabajando en equipos y estoy ansioso por aprender más lenguajes para ampliar
-              mi conocimiento en el mundo de la tecnología. Siempre estoy emocionado de enfrentar nuevos
-              proyectos y contribuir con mis habilidades en este apasionante campo de IT.</h5>
+            <h5>Desde que ingresé al mundo de la programación, he encontrado un profundo interés en el desarrollo web, el cual ha ido en aumento a medida que he avanzado en mis estudios. A lo largo del tiempo, he creado diversos proyectos para poner en práctica mis conocimientos adquiridos, lo que me ha permitido descubrir una pasión por programar y abordar nuevos desafíos. Me siento cómodo colaborando en equipos multidisciplinarios y estoy ansioso por seguir ampliando mis habilidades en tecnologías adicionales. Constantemente busco enfrentar nuevos proyectos y contribuir con mis capacidades en este emocionante campo de la tecnología de la información.</h5>
             <div className="box-old-location">
               <h4><i className="fa-solid fa-user"></i> 22 Años</h4>
               <h4><i className="fa-solid fa-location-dot"></i> Buenos Aires - Argentina</h4>
