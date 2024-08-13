@@ -1,6 +1,6 @@
-import Perfil from "../../assets/images/FotoDePerfil-2.png";
+import Perfil from "../../assets/images/perfil-anahi.jpeg";
 import '../../scss/about.scss';
-import CV from '../../assets/static/cv-anahi-luna.pdf';
+import CV from '../../assets/static/cv-rebeca-luna.pdf';
 
 export const About = () => {
   return (
@@ -13,7 +13,7 @@ export const About = () => {
           <div className="container-text-icons">
             <h5>Desde que ingresé al mundo de la programación, he encontrado un profundo interés en el desarrollo web, el cual ha ido en aumento a medida que he avanzado en mis estudios. A lo largo del tiempo, he creado diversos proyectos para poner en práctica mis conocimientos adquiridos, lo que me ha permitido descubrir una pasión por programar y abordar nuevos desafíos. Me siento cómodo colaborando en equipos multidisciplinarios y estoy ansioso por seguir ampliando mis habilidades en tecnologías adicionales. Constantemente busco enfrentar nuevos proyectos y contribuir con mis capacidades en este emocionante campo de la tecnología de la información.</h5>
             <div className="box-old-location">
-              <h4><i className="fa-solid fa-user"></i> 22 Años</h4>
+              <h4><i className="fa-solid fa-user"></i> 23 Años</h4>
               <h4><i className="fa-solid fa-location-dot"></i> Buenos Aires - Argentina</h4>
             </div>
             <a href={CV}>

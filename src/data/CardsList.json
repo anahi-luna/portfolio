@@ -12,8 +12,8 @@
         "img": "assets/images/pagina-compras.JPG",
         "title": "Arpeggio Music",
         "text": "HTML - CSS - Javascript - MySQL - Sequelize - NodeJS - Express - Apis - MVC - CRUD - Scrum",
-        "linkCode": "https://github.com/gpcuneo/grupo_01_arpeggio_music/tree/sprint8b",
-        "linkPage": "https://github.com/gpcuneo/grupo_01_arpeggio_music/tree/sprint8b"
+        "linkCode": "https://github.com/anahi-luna/arpeggio-music",
+        "linkPage": "https://github.com/anahi-luna/arpeggio-music"
     },
     {
         "id": 3,
@@ -28,8 +28,8 @@
         "img": "assets/images/react-dashboard.JPG",
         "title": "Arpeggio DashBoard",
         "text": "HTML - CSS - Javascript - React - Apis - E-commerce - Bootstrap - CRUD - Scrum",
-        "linkCode": "https://github.com/gpcuneo/grupo_01_arpeggio_music/tree/sprint8b/front",
-        "linkPage": "https://github.com/gpcuneo/grupo_01_arpeggio_music/tree/sprint8b/front"
+        "linkCode": "https://github.com/anahi-luna/arpeggio-music/tree/main/front",
+        "linkPage": "https://github.com/anahi-luna/arpeggio-music/tree/main/front"
     },
     {
         "id": 5,
@@ -38,5 +38,13 @@
         "text": "HTML - CSS - Javascript - E-commerce - MVC - CRUD",
         "linkCode": "https://github.com/anahi-luna/proyecto-individual",
         "linkPage": "https://anahi-luna.github.io/proyecto-individual/"
+    },
+    {
+        "id": 6,
+        "img": "assets/images/vet-tech.JPG",
+        "title": "Vet Tech",
+        "text": "HTML - CSS - Javascript - React - Tailwindcss - Python - MongoDB",
+        "linkCode": "https://github.com/No-Country-simulation/c19-59-n-python-react",
+        "linkPage": "https://vet-tech-front.onrender.com/"
     }
 ]

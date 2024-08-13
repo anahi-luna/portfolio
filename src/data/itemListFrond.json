@@ -29,4 +29,10 @@
       "title": "ReactJS",
       "img": "assets/images/react-original.svg"
     }
+    ,
+    {
+      "id": 7,
+      "title": "Tailwindcss",
+      "img": "assets/images/tailwindcss-original.svg"
+    }
   ]
